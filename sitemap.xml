@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://nhsbsa-data-analytics.github.io/quarto-website-template/about.html</loc>
-    <lastmod>2025-05-07T13:51:42.142Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nhsbsa-data-analytics.github.io/quarto-website-template/CONTRIBUTE.html</loc>
-    <lastmod>2025-05-07T13:51:42.141Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nhsbsa-data-analytics.github.io/quarto-website-template/sections/02-section/pages/01-page.html</loc>
-    <lastmod>2025-05-07T13:51:42.143Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nhsbsa-data-analytics.github.io/quarto-website-template/sections/01-section/index.html</loc>
-    <lastmod>2025-05-07T13:51:42.142Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nhsbsa-data-analytics.github.io/quarto-website-template/sections/01-section/pages/02-page.html</loc>
-    <lastmod>2025-05-07T13:51:42.143Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nhsbsa-data-analytics.github.io/quarto-website-template/accessibility.html</loc>
-    <lastmod>2025-05-07T13:51:42.142Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nhsbsa-data-analytics.github.io/quarto-website-template/sections/01-section/pages/01-page.html</loc>
-    <lastmod>2025-05-07T13:51:42.142Z</lastmod>
-  </url>
-  <url>
     <loc>https://nhsbsa-data-analytics.github.io/quarto-website-template/sections/02-section/pages/02-page.html</loc>
-    <lastmod>2025-05-07T13:51:42.143Z</lastmod>
+    <lastmod>2025-05-07T13:01:19.175Z</lastmod>
   </url>
   <url>
     <loc>https://nhsbsa-data-analytics.github.io/quarto-website-template/sections/02-section/index.html</loc>
-    <lastmod>2025-05-07T13:51:42.143Z</lastmod>
+    <lastmod>2025-05-07T13:01:19.174Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nhsbsa-data-analytics.github.io/quarto-website-template/sections/01-section/pages/01-page.html</loc>
+    <lastmod>2025-05-07T13:01:19.172Z</lastmod>
   </url>
   <url>
     <loc>https://nhsbsa-data-analytics.github.io/quarto-website-template/index.html</loc>
-    <lastmod>2025-05-07T13:51:42.142Z</lastmod>
+    <lastmod>2025-05-07T13:02:06.129Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nhsbsa-data-analytics.github.io/quarto-website-template/accessibility.html</loc>
+    <lastmod>2025-05-07T13:01:30.842Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nhsbsa-data-analytics.github.io/quarto-website-template/about.html</loc>
+    <lastmod>2025-05-07T13:01:19.169Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nhsbsa-data-analytics.github.io/quarto-website-template/CONTRIBUTE.html</loc>
+    <lastmod>2025-05-07T13:01:19.167Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nhsbsa-data-analytics.github.io/quarto-website-template/sections/01-section/index.html</loc>
+    <lastmod>2025-05-07T13:01:19.172Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nhsbsa-data-analytics.github.io/quarto-website-template/sections/01-section/pages/02-page.html</loc>
+    <lastmod>2025-05-07T13:01:19.173Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nhsbsa-data-analytics.github.io/quarto-website-template/sections/02-section/pages/01-page.html</loc>
+    <lastmod>2025-05-07T13:01:19.175Z</lastmod>
   </url>
 </urlset>
