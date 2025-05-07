@@ -18,7 +18,7 @@ toc: false
 
 ## About Quarto Website Template
 
-See the README in the [GitHub repo][repo].
+See the [README][readme] in the GitHub repo.
 
 ## Contributing to Quarto Website Template
 
@@ -26,5 +26,5 @@ We welcome contributions from community members. Please see our [contributing gu
 
 ---
 
-[repo]: https://github.com/nhsbsa-data-analytics/quarto-website-template
+[readme]: https://github.com/nhsbsa-data-analytics/quarto-website-template?tab=readme-ov-file#nhsbsa-quarto-website-template
 [contribute]: https://github.com/nhsbsa-data-analytics/quarto-website-template/blob/main/CONTRIBUTE.md
