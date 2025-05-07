@@ -1,0 +1,16 @@
+[
+  {
+    "listing": "/sections/02-section/index.html",
+    "items": [
+      "/sections/02-section/pages/01-page.html",
+      "/sections/02-section/pages/02-page.html"
+    ]
+  },
+  {
+    "listing": "/sections/01-section/index.html",
+    "items": [
+      "/sections/01-section/pages/01-page.html",
+      "/sections/01-section/pages/02-page.html"
+    ]
+  }
+]
