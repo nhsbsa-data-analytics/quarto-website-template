@@ -1,0 +1,85 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  bread-crumbs: false
+  favicon: static/bsa-favicon.png
+  title: "Quarto Website Template"
+  # Search is good to have and works very well. But it introduces an accessibility
+  # issue no matter how it is configured.
+  # https://quarto.org/docs/websites/website-search.html
+  # overlay gives empty button, while textbox gives empty label
+  # Disabled for now until a solution is found
+  search: false
+  navbar:
+    title: false
+    logo: "static/NHSBSA logo.png"
+    logo-alt: "NHS Business Services Authority"
+    logo-href: "https://www.nhsbsa.nhs.uk/"
+    pinned: true
+    background: "#005EB8"
+    collapse: false
+    left:
+      - href: index.qmd
+        text: Quarto Website Template Home Page
+      - text: "Sections"
+        menu:
+          - href: sections/01-section/index.qmd
+          - href: sections/02-section/index.qmd
+          
+    right:
+      - href: about.qmd
+        text: "{{< iconify mdi:information-outline size=xl >}} About"
+      - href: https://www.nhsbsa.nhs.uk/nhsbsa-statistics-and-data-science
+        text: "{{< iconify mdi:house-outline size=xl >}} NHSBSA Data Science Home Page"
+      - href: https://github.com/nhsbsa-data-analytics/quarto-website-template
+        text: "{{< iconify mdi:github size=xl >}} GitHub"
+      - href: https://twitter.com/nhsbsa
+        text: "{{< iconify mdi:twitter size=xl >}} X (formerly Twitter)"
+        
+  announcement: 
+    icon: info-circle
+    dismissable: true
+    content: '
+      **Pre-Release**: This is a new website under development.
+      [Click here](https://github.com/nhsbsa-data-analytics/quarto-website-template/blob/main/CONTRIBUTE.md)
+      to find out how you can submit feedback, suggest improvements and get involved!
+      '
+    type: warning
+    position: above-navbar
+
+  sidebar:
+    style: "docked"
+    search: false
+    collapse-level: 2
+    contents:
+      - text: "Home"
+        href: index.qmd
+      - section: "Section 1"
+        href: sections/01-section/index.qmd
+        contents: sections/01-section/pages/*
+      - section: "Section 2"
+        href: sections/02-section/index.qmd
+        contents: sections/02-section/pages/*
+        
+  page-footer:
+      left:
+        - text: "Accessibility"
+          href: accessibility.qmd
+      
+format:
+  html:
+   grid: 
+    sidebar-width: 25%
+   pagetitle: "Home Page"
+   lang: en-GB
+   theme: cosmo
+   css: styles.css
+   mainfont: "Arial"
+   fontsize: 130%
+   page-layout: full
+   toc: true
+    
+execute:
+  freeze: auto

@@ -1,0 +1,8 @@
+---
+title: "Page 2"
+description: ""
+image-alt: "This text will show if your image cannot be displayed"
+image: 02-image.jpg
+---
+
+Lorem ipsum dolor sit veritum ...

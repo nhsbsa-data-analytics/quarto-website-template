@@ -1,0 +1,30 @@
+---
+title: "Quarto Website Template"
+description: ""
+title-block-banner: true
+listing:
+  type: grid
+  sort: path
+  contents: "sections/*/index.qmd"
+format:
+  html:
+    html-math-method: katex
+    css: styles.css
+    embed-resources: true
+    include-before-body: skip-link.html
+    include-after-body: post-load-accessibility-fixes.html
+toc: false
+---
+
+## About Quarto Website Template
+
+See the README in the [GitHub repo][repo].
+
+## Contributing to Quarto Website Template
+
+We welcome contributions from community members. Please see our [contributing guide][contribute] for information on how you can get involved!
+
+---
+
+[repo]: https://github.com/nhsbsa-data-analytics/quarto-website-template
+[contribute]: https://github.com/nhsbsa-data-analytics/quarto-website-template/blob/main/CONTRIBUTE.md

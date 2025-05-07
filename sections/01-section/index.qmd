@@ -1,0 +1,13 @@
+---
+title: "Section 1"
+description: ""
+image-alt: "This text will show if your image cannot be displayed"
+image: image.jpg
+title-block-banner: true
+listing:
+  type: grid
+  contents: "/pages/**.qmd"
+  sort: "path"
+---
+
+Lorem ipsum dolor sit veritum ...
