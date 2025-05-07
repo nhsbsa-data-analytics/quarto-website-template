@@ -20,14 +20,14 @@ You can run the document by:
 
 ## Folder Structure
 
-The playbook is structured into a series of sections and pages. A section can be navigated to via the navbar dropdown. Alternatively, the sidebar can be used to navigate directly to any section or page. The navbar and sidebar are always available. The landing page and each section page also has a listing allowing navigation to sections, or pages within a section, respectively.
+The website is structured into a series of sections and pages. A section can be navigated to via the navbar dropdown. Alternatively, the sidebar can be used to navigate directly to any section or page. The navbar and sidebar are always available. The landing page and each section page also has a listing allowing navigation to sections, or pages within a section, respectively.
 
 Each section and sub-section is populated by a `.qmd` file and supporting `.jpg` file to provide the image for each page listing. The sections and pages should be numbered according to their desired order in the navigation elements.
 
 The following folder structure highlights how this is setup up from a coding perspective.
 
 ```
-├───sections ............................# Folder containing all of the playbook content separated into sections
+├───sections ............................# Folder containing all main content separated into sections
 |   ├───_metadata.yml ...................# Additional settings applied to all pages
 |   ├───01-section ......................# First section folder, containing content separated into pages
 |       ├───index.qmd ...................# Section 'top-level' page 
@@ -65,7 +65,13 @@ Quarto Website Template
 
 ## Using this repo as a template
 
-TODO: Add guide
+GitHub repo templates are very basic and offer no sort of variable placeholders. There are [ways to improve this](https://rclayton.silvrback.com/templatizing-github-template-repos), but manual is the way to go for now!
+
+This is a list of replacements you will need to make for a new repo.
+
+1. Wherever "Quarto Website Template" is used, you should replace it with something appropriate for the new repo. There are only around 15 occurrences and you can use IDE tools to help find them all (e.g. CTRL+ALT+F in Rstudio).
+1. Wherever "quarto-website-template" is used, you should replace with the name of the new repo. There are around 10 occurrences and again, use your IDE to find them.
+1. The `quarto-website-template.Rproj` file should be renamed as `{NEW REPO NAME}.Rproj`.
 
 ## Contributing to Quarto Website Template
 
